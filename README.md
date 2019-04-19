@@ -10,7 +10,7 @@ Just run the newsdata_site.py file with python3 and open up a web browser to loc
 
 The code requires pyscopg2 and Flask.  It was written with Python v3.6.7, but earlier version of python3 will likely work.  You must also have the "news" database set up locally.
 
-##  Installing
+## Installing
 
 These instructions assume you have already set up the news database.
 
@@ -22,4 +22,6 @@ python3 newsdata_site.py
 
 2. Connect to localhost:8000 in a web browser.  Select from the three queries available.  Query results will be displayed below the selection buttons. 
 
+## Acknowledgements
 
+* udacity.com for providing the database and guidance on writing this code
