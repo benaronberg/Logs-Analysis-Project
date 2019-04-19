@@ -8,7 +8,7 @@ Just run the newsdata_site.py file with python3 and open up a web browser to loc
 
 ## Prerequisites
 
-The code requires pyscopg2 and Flask.  It was written with Python v3.6.7, but hearlier version of python3 will likely work.  You must also have the "news" database set up locally.
+The code requires pyscopg2 and Flask.  It was written with Python v3.6.7, but earlier version of python3 will likely work.  You must also have the "news" database set up locally.
 
 ##  Installing
 
