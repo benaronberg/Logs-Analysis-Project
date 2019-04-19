@@ -1,5 +1,4 @@
 import psycopg2
-import bleach
 from flask import Flask, render_template, Markup
 
 DBNAME = "news"
