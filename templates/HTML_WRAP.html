@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>News Log Tool</title>
+    <style>
+      h1, form { text-align: center; }
+      textarea { width: 400px; height: 100px; }
+      div.result_box { border: 1px solid #999;
+                 padding: 10px 10px;
+                 margin: 10px 20%%; }
+      hr.postbound { width: 50%%; }
+    </style>
+  </head>
+  <body>
+    <h1>Newsdata Log Tool</h1>
+    <h2>Select a query</h2>
+    <form action=top_3 method=get>
+      <div><button id="top_3" type="submit">Top Three Articles</button></div>
+    </form>
+    <form action=authors_by_popularity method=get>
+      <div><button id="authors_by_popularity" type="submit">Authors by Popularity</button></div>
+    </form>
+    <form action=peak_error_days method=get>
+      <div><button id="peak_error_days" type="submit">Peak Error Days</button></div>
+    </form>
+    <!-- query content will go here -->
+    <div class=result_box>
+      <h3>Query Result:</h3>
+      {% if result %}
+      <h4>{{ result|safe }}</h4>
+      {% else %}
+      {% endif %}
+    </div>
+
+  </body>
+</html>
