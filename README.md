@@ -17,7 +17,7 @@ PostgreSQL is required to run the Logs Analysis code.  Download can be found [he
 
 Alternatively, you can use [Vagrant](https://www.vagrantup.com/docs/installation/) and VirtualBox to set up the environment using the Udacity provided Vagrantfile found [here](https://github.com/udacity/fullstack-nanodegree-vm/blob/master/vagrant/Vagrantfile)
 
-You must also have the "news" database set up locally.  The SQL file can be found [here] (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).  To install on Linux, cd into the directory containing newsdata.sql and run the following command:
+You must also have the "news" database set up locally.  The SQL file can be found [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).  To install on Linux, cd into the directory containing newsdata.sql and run the following command:
 
 ```
 psql -d news -f newsdata.sql
