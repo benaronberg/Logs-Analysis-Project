@@ -13,11 +13,11 @@ Just run the newsdata_site.py file with python3 and open up a web browser to loc
 
 The code requires pyscopg2 and Flask.  It was written with Python v3.6.7, but earlier version of python3 will likely work.  
 
-PostgreSQL is required to run the Logs Analysis code.  Download can be found here(https://www.postgresql.org/download/) and install instructions here(https://www.postgresql.org/docs/9.3/tutorial-install.html)
+PostgreSQL is required to run the Logs Analysis code.  Download can be found [here](https://www.postgresql.org/download/) and install instructions [here](https://www.postgresql.org/docs/9.3/tutorial-install.html)
 
-Alternatively, you can use Vagrant(https://www.vagrantup.com/docs/installation/) and VirtualBox to set up the environment using the Udacity provided Vagrantfile found here(https://github.com/udacity/fullstack-nanodegree-vm/blob/master/vagrant/Vagrantfile)
+Alternatively, you can use [Vagrant](https://www.vagrantup.com/docs/installation/) and VirtualBox to set up the environment using the Udacity provided Vagrantfile found [here](https://github.com/udacity/fullstack-nanodegree-vm/blob/master/vagrant/Vagrantfile)
 
-You must also have the "news" database set up locally.  The SQL file can be found here (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).  To install on Linux, cd into the directory containing newsdata.sql and run the following command:
+You must also have the "news" database set up locally.  The SQL file can be found [here] (https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).  To install on Linux, cd into the directory containing newsdata.sql and run the following command:
 
 ```
 psql -d news -f newsdata.sql
