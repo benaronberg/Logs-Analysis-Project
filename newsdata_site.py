@@ -64,8 +64,8 @@ def peak_error_days():
             '''
 
     r = execute_query(query)
-    r = '''RESULT % (time, percent_errors) for time, percent_errors in r'''
-    result = "".join(result_join)
+    r = r[0]
+    result = str(r[0]) + ' -- ' + str(r[1])
     return render_template('HTML_WRAP.html', result=result)
 
 
