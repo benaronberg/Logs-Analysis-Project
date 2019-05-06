@@ -37,7 +37,7 @@ def authors_by_popularity():
         by each auther have recieved, sorted from most views to least views"""
     query = '''SELECT authors.name, count(log.id) as views
                     FROM authors, articles, log
-                    WHERE log.path like '%' || articles.slug || '%'
+                    WHERE log.path like '/article/' || articles.slug
                     AND articles.author = authors.id
                     GROUP BY authors.id
                     ORDER BY views desc;
