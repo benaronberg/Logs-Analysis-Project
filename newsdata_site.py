@@ -22,7 +22,7 @@ def top_3():
     """Return the most popular three articles of all time in the database"""
     query = '''SELECT articles.title, count(log.id) as views
                     FROM articles, log
-                    WHERE log.path like '%' || articles.slug || '%'
+                    WHERE log.path like '/article/' || articles.slug
                     GROUP BY log.path, articles.title
                     ORDER BY views desc limit 3;
             '''
